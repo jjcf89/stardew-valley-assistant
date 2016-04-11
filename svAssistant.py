@@ -8,6 +8,8 @@
 #               types and amounts of seeds to purchase.
 #---------------------------------------------------------------------------------------------------
 import os
+# Support for input in python 2.x
+from builtins import input
 
 # Define several dictionaries and lists to be used globally.
 season_crops = {
